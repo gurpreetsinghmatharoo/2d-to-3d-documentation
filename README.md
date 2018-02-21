@@ -44,7 +44,7 @@ You can initialize these variables yourself in your objects with a custom value 
 
 `xRot`, `yRot` and `zRot` are the rotations of an object.
 
-[Example](http://www.3dmax-tutorials.com/graphics/ill_rotation_trackball.gif)
+![Example](http://www.3dmax-tutorials.com/graphics/ill_rotation_trackball.gif)
 
 ## Faces
 
@@ -52,8 +52,8 @@ By default, each object will be given one face, but you can change the `Faces` v
 
 ### 2 Faces
 
-[2 Faces](https://i.imgur.com/8HrLcZS.png)
+![2 Faces](https://i.imgur.com/8HrLcZS.png)
 
 ### 4 Faces
 
-[4 Faces](https://i.imgur.com/bzyME6p.png)
+![4 Faces](https://i.imgur.com/bzyME6p.png)
