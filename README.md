@@ -21,7 +21,7 @@ tile_layers = ["TileLayer1", "TileLayer2"];
 
 • When you delete the `o2Dto3D` object, the camera will still be 3D. To restore the camera back to the original one, go to the object's Clean Up event and set the camera in the last line, which is commented out.
 
-• All your tiles & background layers will be flattened. If you are using tiles for world objects like rocks, walls, houses, etc. you will need to use objects so that they can stand up.
+• All your tiles & background layers will be flattened into one surface. If you are using tiles for world objects like rocks, walls, houses, etc. you will need to use objects so that they can stand up.
 
 # Skybox
 
