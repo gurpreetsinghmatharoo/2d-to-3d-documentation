@@ -23,9 +23,6 @@ tile_layers = ["TileLayer1", "TileLayer2"];
 
 • All your tiles & background layers will be flattened into one surface. If you are using tiles for world objects like rocks, walls, houses, etc. you will need to use objects so that they can stand up.
 
-# Skybox
-
-
 # 3D Variables
 
 The converter creates some variables in all of your objects. They are:
