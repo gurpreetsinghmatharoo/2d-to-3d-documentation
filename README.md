@@ -30,9 +30,34 @@ tile_layers = ["TileLayer1", "TileLayer2"];
 # Skybox
 
 
+# 3D Variables
 
-# Z Height
+The converter creates some variables in all of your objects. They are:
 
-Converting a game into 3D creates a variable called `z` in every object, which is the height where it's positioned at. The default is `0`, on the ground. It goes up when it is increased, and goes down when decreased.
+* z
+* xRot, yRot, zRot
+* Faces
 
-You can initialize the z variable yourself in an object with a custom value to override the converter's initialization.
+You can initialize these variables yourself in your objects with a custom value to override the converter's initialization.
+
+## z
+
+`z` is the height where an object is positioned at. The default is `0`, which is on the ground. Positive values go upwards, negative go downwards.
+
+## Rotation
+
+`xRot`, `yRot` and `zRot` are the rotations of an object.
+
+[Example](http://www.3dmax-tutorials.com/graphics/ill_rotation_trackball.gif)
+
+## Faces
+
+By default, each object will be given one face, but you can change the `Faces` variable to give it more. Here's what the effect looks like:
+
+### 2 Faces
+
+[2 Faces](https://i.imgur.com/8HrLcZS.png)
+
+### 4 Faces
+
+[4 Faces](https://i.imgur.com/bzyME6p.png)
