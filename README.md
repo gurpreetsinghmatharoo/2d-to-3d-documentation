@@ -7,7 +7,8 @@
 
 Place object `o2Dto3D` where you want the 3D effect. You can also create it with `instance_create_<>` and destroy it with `instance_destroy()` for switching between 2D and 3D.
 
-You can customize everything in that object's Create event.
+You can customize everything in that object's Create event, under the **Customize** region.
+
 You will need to add your background & tile layers to their respective arrays in the same event.
 
 ```
