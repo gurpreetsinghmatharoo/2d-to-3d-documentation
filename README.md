@@ -31,6 +31,7 @@ The converter creates some variables in all of your objects. They are:
 * z
 * xRot, yRot, zRot
 * Faces
+* Billboard
 
 You can initialize these variables yourself in your objects with a custom value to override the converter's initialization.
 
@@ -55,3 +56,15 @@ By default, each object will be given one face, but you can change the `Faces` v
 ### 4 Faces
 
 ![4 Faces](https://i.imgur.com/bzyME6p.png)
+
+## Billboard
+
+This is 0 by default. You can set it to 1 to have the object rotate on its Z axis to face the camera, but not look up or down. You can set it to 2 to have look up and down as well.
+
+### Billboard = 1
+
+![1](https://i.imgur.com/zaD8ITG.png)
+
+### Billboard = 2
+
+![2](https://i.imgur.com/GVebdJ7.png)
