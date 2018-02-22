@@ -24,6 +24,14 @@ tile_layers = ["TileLayer1", "TileLayer2"];
 
 • All your tiles & background layers will be flattened into one surface. If you are using tiles for world objects like rocks, walls, houses, etc. you will need to use objects so that they can stand up.
 
+# Objects
+
+## Cubes
+
+`oCube` is a cube that you can place in the room for it to show up in 3D. Resizing in the room editor is supported too.
+
+You can set its properties in the **Variable Definitions** window, so you can also set different properties for different instances (in the room editor). The properties are the height, color, sprite and alpha of the cube.
+
 # 3D Variables
 
 The converter creates some variables in all of your objects. They are:
