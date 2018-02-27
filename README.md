@@ -32,6 +32,33 @@ tile_layers = ["TileLayer1", "TileLayer2"];
 
 You can set its properties in the **Variable Definitions** window, so you can also set different properties for different instances (in the room editor). The properties are the height, color, sprite and alpha of the cube.
 
+# Collisions
+
+## place_meeting_3d()
+
+This function checks whether the instance running the code is colliding with anything in the 3D world. It will return `false` if 3D is not on, or if the vertex buffer for an object isn't built yet (shouldn't happen or be a problem).
+
+### Arguments:
+
+**xAdd:** Amount to add to the instance's x position (x + xAdd will be the final position for collision checking)
+**yAdd:** Amount to add to y
+**zAdd:** Amount to add to z
+**Obj:** Object/instance to check for collision with
+
+### Example:
+
+```
+if (place_meeting_3d(xSpeed, 0, 0)){
+  xSpeed = 0;
+}
+if (place_meeting_3d(0, ySpeed, 0)){
+  ySpeed = 0;
+}
+if (place_meeting_3d(0, 0, zSpeed)){
+  zSpeed = 0;
+}
+```
+
 # 3D Variables
 
 The converter creates some variables in all of your objects. They are:
