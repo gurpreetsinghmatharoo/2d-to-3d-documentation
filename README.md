@@ -51,13 +51,13 @@ This function checks whether the instance running the code is colliding with any
 ### Example:
 
 ```
-if (place_meeting_3d(xSpeed, 0, 0)){
+if (place_meeting_3d(xSpeed, 0, 0, oCollision)){
   xSpeed = 0;
 }
-if (place_meeting_3d(0, ySpeed, 0)){
+if (place_meeting_3d(0, ySpeed, 0, oCollision)){
   ySpeed = 0;
 }
-if (place_meeting_3d(0, 0, zSpeed)){
+if (place_meeting_3d(0, 0, zSpeed, oCollision)){
   zSpeed = 0;
 }
 ```
