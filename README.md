@@ -41,8 +41,11 @@ This function checks whether the instance running the code is colliding with any
 ### Arguments:
 
 **xAdd:** Amount to add to the instance's x position (x + xAdd will be the final position for collision checking)
+
 **yAdd:** Amount to add to y
+
 **zAdd:** Amount to add to z
+
 **Obj:** Object/instance to check for collision with
 
 ### Example:
